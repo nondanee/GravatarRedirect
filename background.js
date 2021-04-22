@@ -1,8 +1,8 @@
 const mirror = [
-    'cdn.v2ex.com/gravatar/',
-    'sdn.geekzu.org/avatar/',
-    'dn-qiniu-avatar.qbox.me/avatar/',
-    'gravatar.loli.net/avatar/',
+    '//cdn.v2ex.com/gravatar/',
+    '//sdn.geekzu.org/avatar/',
+    '//dn-qiniu-avatar.qbox.me/avatar/',
+    '//gravatar.loli.net/avatar/',
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
