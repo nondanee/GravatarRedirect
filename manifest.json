@@ -1,0 +1,14 @@
+{
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "description": "Redirect gravatar source request to mirror",
+    "manifest_version": 2,
+    "permissions": ["<all_urls>", "webRequest", "webRequestBlocking"],
+    "icons": {
+        "512": "icon.png"
+    },
+    "name": "Gravatar Redirect",
+    "author": "nondanee",
+    "version": "0.0.1"
+}
