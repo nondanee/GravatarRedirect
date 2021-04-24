@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "transform": {
+                    "host": "gravatar.loli.net"
+                }
+            }
+        },
+        "condition": {
+            "urlFilter": "||gravatar.com/avatar",
+            "resourceTypes": ["image"]
+        }
+    }
+]
