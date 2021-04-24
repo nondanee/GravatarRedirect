@@ -1,7 +1,7 @@
 {
     "name": "Gravatar Redirect",
     "description": "Redirect gravatar source request to mirror",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "manifest_version": 3,
     "permissions": [
         "declarativeNetRequest",
